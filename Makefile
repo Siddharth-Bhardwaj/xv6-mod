@@ -175,6 +175,10 @@ UPROGS=\
 	_zombie\
 	_hello\
 	_uniq\
+	_nice\
+	_ps\
+	_nicetest\
+	_random\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)

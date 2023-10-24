@@ -23,6 +23,9 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int setnice(int pid, int nice);
+int ps(void);
+int random(int max);
 
 // ulib.c
 int stat(char*, struct stat*);

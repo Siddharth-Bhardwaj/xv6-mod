@@ -49,6 +49,7 @@ allocproc(void)
 found:
   p->state = EMBRYO;
   p->pid = nextpid++;
+  p->nice = 0;
 
   release(&ptable.lock);
 
@@ -158,6 +159,7 @@ fork(void)
   np->sz = proc->sz;
   np->parent = proc;
   *np->tf = *proc->tf;
+  np->nice = 0;
 
   // Clear %eax so that fork returns 0 in the child.
   np->tf->eax = 0;
@@ -482,4 +484,76 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+
+int setnice(int pid, int nice) {
+  struct proc *p;
+  if (nice > 19) {
+    nice = 19;
+  }
+  if (nice < -20) {
+    nice = -20;
+  }
+  acquire(&ptable.lock);
+  for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+    if (p->pid == pid) {
+      p->nice = nice;
+      cprintf("pid: %d nice: %d\n", pid, nice);
+      release(&ptable.lock);
+      return pid;
+    }
+  }
+  cprintf("process with given pid does not exist\n");
+  release(&ptable.lock);
+  return -1;
+}
+
+char* getStatusString(enum procstate state) {
+  switch (state)
+  {
+  case UNUSED:
+    return "UNUSED";
+  case EMBRYO:
+    return "EMBRYO";  
+  case SLEEPING:
+    return "SLEEPING";
+  case RUNNABLE:
+    return "RUNNABLE";
+  case RUNNING:
+    return "RUNNING";
+  case ZOMBIE:
+    return "ZOMBIE"; 
+  default:
+    return "INVALID";
+  }
+}
+
+int ps() {
+  struct proc *p;
+  acquire(&ptable.lock);
+  cprintf("NAME\tPID\tSTATUS\t\tNICE\n");
+  for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+    if (p->pid > 0) { // checking if processes exists
+      cprintf("%s\t%d\t%s\t\t%d\n", p->name, p->pid, getStatusString(p->state), p->nice);
+    }
+  }
+  release(&ptable.lock);
+  return 0;
+}
+
+int random(int max)
+{
+  // reference: http://stackoverflow.com/questions/1167253/implementation-of-rand
+  unsigned int a;
+  static unsigned int a1 = 12345, a2 = 12345, a3 = 12345, a4 = 12345;
+  a = ((a1 << 6) ^ a1) >> 13;
+  a1 = ((a1 & 4294967294U) << 18) ^ a;
+  a = ((a2 << 2) ^ a2) >> 27;
+  a2 = ((a2 & 4294967288U) << 2) ^ a;
+  a = ((a3 << 13) ^ a3) >> 21;
+  a3 = ((a3 & 4294967280U) << 7) ^ a;
+  a = ((a4 << 3) ^ a4) >> 12;
+  a4 = ((a4 & 4294967168U) << 13) ^ a;
+
+  return ((a1 ^ a2 ^ a3 ^ a4) / 2);
 }

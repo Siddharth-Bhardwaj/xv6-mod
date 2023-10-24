@@ -116,6 +116,9 @@ void            userinit(void);
 int             wait(void);
 void            wakeup(void*);
 void            yield(void);
+int             setnice(int pid, int nice);
+int             ps(void);
+int             random(int max);
 
 // swtch.S
 void            swtch(struct context**, struct context*);
