@@ -1,0 +1,1158 @@
+qemu-system-i386 -nographic -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 2 -m 512 
+xv6...
+cpu1: starting
+cpu0: starting
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ lotterytestv4
+process created with pid: process created with pid: 4
+5
+process created with pid: 7
+process created with pid: 6
+Process with pid: 7 ran 10000 times
+process created with pid: 9
+process created with pid: 8
+process created with pid: Process with pid: 4 ran 10000 times
+10
+process created with pid: 11
+Process with pid: 9 ran 10000 times
+process created with pid: 12
+Process with pid: 6 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+process created with pid: $ Process with pid: 5 ran 10000 times
+13
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ranProcess with pid: 4 ran 10000 times
+ 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+PProcess with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+rocess with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+PProcess with pid: 5 ran 10000 times
+rocess with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+PProcess with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 8 ranProcess with pid: 5 ran 10000 times
+ 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+ProcesProcess with pid: 11 ran 10000 times
+Process witProcess with pid: 8 ran 10000 times
+s with pid: 10 ran 10000 times
+h pid: 6 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 12 rProcess with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+an 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 timeProcess with pid: 8 ran 10000 times
+s
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+PProcess with pid: 6 ran 1000rocess with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+0 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with piProcess with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+d: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+PrProcess with pid: 5 ran 10000 times
+ocess with pid: 4 ran 10000 times
+Process with pid: 8 ran 10Process with pid: 9 ran 10000 times
+000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 10 ran 10000 times
+ProProcess with pid: 5 ran 10000 times
+Process with pid: 7 ran 10000 times
+cess with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+ProcProcess with pid: 4 ran 10000 times
+ess with pid: 5 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process withProcess with pid: 12 ran 10000 Process with pid: 7 ran 10000 times
+times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+ pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 tProcess with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Pimes
+rocess with pid: 10 ran 10000 times
+Process with pid: 11 ran Process with pid: 4 ran 10000 times
+10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+PProcess with pid: 5 ran 10000 times
+rocess with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+PrProcess with pid: 8 ran 10000 times
+ocess with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 rProcess with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+an 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+ProcesProcess with pid:s with pid: 11 ran 10000 times
+ 6 ran 10000 times
+PProcess with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+rocess with pid: 4 ran 10000 times
+PProcess with pid: 10 ran 10000 times
+rocess with pid: 5 ran 10000Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+ times
+Process with pid: 12 ran 10000 timProcess with pid: 9 ran 10000 times
+es
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 raProcess with pid: 13 ran 10000 times
+Process withProcess with pid: 10 ran 10000 times
+nProcess with pid: 12 ran 10000 tim 10000 times
+es
+ pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 5 raProcess with pid: 4 ran 10000 tProcess with pid: 9 ran 10000 times
+n 10000 times
+imes
+Process with pid: 12 ran 10000 times
+ProProcess with pid: 13 ran 10000 times
+cess with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process wiProcess with pid: 8 ran 10000 tith pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+mes
+Process with pid: 5 ran 10000 times
+ProceProcess with pid: 7 ran 10000 times
+ss with pid: 11 ran 10000 times
+PProcess with pid: 9 ran 10000 times
+rocess with pid: 13 ran 10000 times
+Process with pid: 12 ran 10000 timeProcess with pid: 10 ran 10000 times
+s
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 7 ran 10000 times
+ProProcess with pid: 13 ran 10000 times
+cess with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with piProcess with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+d: 6 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 tiProcess with pid: 10 ran 10000 times
+mes
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 10 rProcess with pid: 13 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+an 10000 times
+PProcess with pid: 9 ran 10000 times
+rocess with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ranProcess with pid: 10 ran 10000 times
+ 10000 times
+Process with pid: 8 ran 10000 times
+ProProcess cess with pid: 4 ran 10000 times
+with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 tiProcess with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 timProcess with pid: 12 ran 10000 times
+es
+mes
+Process with pid: 5 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000Process with pid: 11 ran 10000 times
+ times
+Process with pid: 6 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+PProcess with pid: 10 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pProcess with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+id: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000Process with pid: 12 ran 10000 times
+ times
+PProcess with pid: 13 ran 10000 times
+rocess with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+PProcess with pid: 11 ran 10000 times
+rocess with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 tProcess wProcess with pid: 6 ran 10000 times
+Process with pid: 12 ran 10000 times
+ith pid: 7 ran 10000 times
+imes
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran Process with pid: 11 ran 10000 times
+10000 times
+PProcess with pid: 7 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+rocess with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+ProcProcess with pid: 10 ran 10000 times
+ess with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 tProcess with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+imes
+Process with pid: 12 ran 100Process with pid: 7 ran 10000 times
+00 times
+ProceProcess with pid: 4 ran 10000 times
+ss with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+PProcess with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+rocess with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+PProcess with pid: 13rocess with pid: 8 ran 10000 times
+ ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+PProcess with pid: 11 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+ProcProcess with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+ess with pid: 5 ran 10000 timProcess with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+es
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+PProcess with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+rocess with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+PProcess with rocess with pid: 10 ran 10000 times
+pid: 12 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran Proce10000 times
+Process with pid: 13 ran 10000 times
+ss with pid: 7 ran 10000 times
+Process with pid: 8 ran 10Process with pid: 12 ran 10000 times
+000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+PProcess with pid: 12 ran 10000 times
+rProcess with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Pocess with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 tPimes
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 times
+rocess with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+PProcess with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+rProcess with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 7 ran 10000 times
+ocess with pid: 8 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+ProcessProcess with pid: 12 ran 10000 times
+Process with pid:  with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 PProcess with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+times
+rocess with pid: 11 ran 10000 times
+ProcProcess with pid: 10 ran 10000 times
+ess with pid: 6 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5Process with pid: 11 ran 10000 times
+ ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process withProcess with pid: 13 ran 10000 times
+ pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+ProcProcess with pProcess with pid: 9 ran 10000 times
+ess with pid: 11 ran 10000 times
+id: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 timePProcess with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+s
+Process with pid: 7 rProcess with ocess with pid: 13 ran 10000 times
+pran 10000 times
+Process with pid: 11 ran 10000 times
+id: 8 ran 10000 times
+ProcProcess with pid: 12 ran 10000 times
+ess with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+PrProcess with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 times
+ocess with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11Process with pid: 12 ran 10000 times
+ ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pProcess with pid: 13 ran 10000 times
+id: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+PProcess with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 times
+rProcess with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+ocess with pid: 5 ran 10000 times
+PProcess with pid: 6 ran 10000 times
+rocess with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with piProcess with pid: 8 ran 10000 timd: 6 ran 10000 times
+es
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+PProcess with pid: 9 ran 10000 times
+rocess with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process witProcess with pid: 12 ran 10000 times
+h pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 Process with pid: 12 ran 10000 times
+Procesran 10000 times
+s with pid: 6 ran 10000 times
+PProcess with pid: 8 ran 10000 times
+rocess with pid: 4 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000Process with Process with pid: 12 ran 10000 times
+ times
+Process with pid: 8 ran 10000 times
+pid: 4 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+PProcess with pid: 5 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid:Process with pid: 8 ran 10000 times
+ 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 timProcess with pid: 12 ran 10000 times
+es
+Process with pid: 8 ran 10000 times
+Process with pid: 4 ran 10000 times
+PProcess with pid: 13 ran 10000 times
+rocess with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 timesProcess with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 10 ran 10000 times
+
+Process with pid: 11 ran 10000 times
+Process wiProcess with pid: 5 ran 10000 times
+th pid: 13 ran 10000 times
+Process with pProcess with pid: 4 ran 10000 times
+id: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 10 ran 10000 tProcess with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+imes
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 10 ran 10Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+000 times
+PProcess with pid: 11 ran 10000 times
+rocess with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 tProcess with pid: 12 ran 10000 imes
+Process with pid: 6 ran 10000 times
+ProcPess with pid: 5 ran 10000 times
+rocess with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+PProcess with pid: 12 ran 10000 times
+rocess with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10Process with pid: 13 ran 10000 times
+ ran 10000 times
+Process with pid: 9 ran 10000 times
+ProcesProcess with pid: 8 ran 10000 times
+Process with Process with pid: 4 ran 10000 times
+s with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+PProcess with pid: 12 ran 10000 times
+Process with pid: 8 ran 10000rocess with pid: 13 ran 10000 times
+ times
+PrProcess with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 11 ran 10000 timeso
+cess with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+ProceProcess with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+ss with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran Process with pid: 9 ran 10000 times
+10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 10 ran 10000 times
+PProcess with pid: 6 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 tProcess with pid: 4 ran 10000 timesProcess with pid: 6 ran 10000 times
+imes
+Process with pid: 11 ran 10000 times
+
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+ProcProcess with pid: 10 ran 10000 times
+ess with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 Process with pid: 13 ran 10000 times
+times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+PProcess with rocess with pid: 5 ran 10000 times
+pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+PProcess with pid: 12 ran 10000 times
+rProcess with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 5 ran 10000 times
+ocess with pid: 7 ran 10000 times
+Process with pid: 6 ran Process with pid: 9 ran 10000 times
+10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process Process with pid: 11 ran 10000 times
+with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+PProcess with pid: 8 ran 10000 times
+rocess with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process withProcess with pid: 9 ran 10000 times
+PrProcess with pid: 12 ran 10000 times
+ocess with pid: 5 ran 10000 times
+P pid: 4 ran 10000 times
+rocess with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 tProcess with pid: 8 ran 10000 times
+Process witProcess with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 tih pid: 10 ran 10000 times
+mes
+Process with pid: 5 ran 10000 times
+imes
+Process with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 tiProcess with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+mes
+Process with pid: 8 ran 10000 times
+Process with pid: 9 ran 10000 times
+PrProcess with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 times
+ocess with pid: 11 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process wiProcess with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+th pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+ProcesProcess with pid: 11 ran 10000 times
+Process with pid: Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+13 ran 10000 times
+s with pid: 8 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: Process with pid: 12 ran 10000 times
+Process with pid: 13 ran 10000 times
+8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 tiProcess with pid: 5 ran 10000 times
+mes
+Process with pid: 13 ran 10000 timesProcess with pid: 6 ran 10000 times
+
+Process with pid: 4 ran 1Process with pid: 13 ran 10000 times
+0000 times
+Process with pid: 10 ran 10000 times
+Process wiProcess with pid: 7 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+th pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process wiProcess with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+th pid: 5 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 7 ran 1Process with0 pid: 11 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 12 ran 10000 times
+000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 6 ran 10000 times
+PProcess with pid: 8 ran 10000 times
+Process with pid: 13 ran 10000 times
+rocess with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 8 ran 10000 times
+PProcess with pid: 12 ran 10000 times
+rocess with pid: 6 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 9 ran 10000 timeProcess with pid: 11 ran 10000 times
+Ps
+Process with pid: 8 raProcess with pid: 7 ran 10000 times
+Process with pid: rocess with pid: 13 ran 10000 tin 10000 times
+Process with pid: 4 ran 10000 times
+5 ran 10000 times
+mes
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 4 ran 10000 tProcess with pid: 8 ran 10000 times
+imes
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 1000Process with pid: 7 ran 10000 times
+0 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: Process with pid: 6 ran 18 ran 10000 times
+Process with pid: 12 ran 10000 times
+0000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000 tProcess with pid: 13 ran 10000 times
+imes
+Process with pid: 9 ran 10000 times
+Process with pid: 6 ran 10000 times
+PrProcess with pid: 13 ran 10000 times
+Process with pid: 11 ran 10000 times
+ocess with pid: 12 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 9 ran 10000 times
+PProcess with pid: 11 ran 10000 times
+Process with pid: 5 ran 10000 times
+rocess with pid: 12 ran 10000 times
+PProcess with pid: 4 ran 10000 times
+rocess with pid: 6 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 11 ran 10000Process with pid: 5 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+ Process with pid: 10 ran 10000 times
+times
+Process with pid: 7 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 4 ran 10000 times
+Process with pid: 12 ran 10000 times
+Process with pid: 10 ran 10000 times
+Process with pid: 5 ran 10000 times
+Process with pid: 11 ran 10000 times
+Process with pid: 13 ran 10000 times
+Process with pid: 7 ran 10000 times
+Process with pid: 6 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 8 ran 10000 times
+Process with pid: 10 ran 10000 times
+PProcess with pid: 5 ran 100Process with pid: 4 ran 10000 times
+00 times
+Process with pid: 6 ran 10000 times
+Process with pid: 11 ran 10000 times
+rocess with pid: 12 ran 10000 times
+Process with pid: 9 ran 10000 times
+Process with pid: 7 ran 10000 times
+QEMU: Terminated
+

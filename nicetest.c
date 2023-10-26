@@ -22,7 +22,7 @@ int main(int argc, char*argv[]) {
                 primes++;
             }
         }
-        printf(1, "%d\n", primes);
+        printf(1, "number of primes: %d\n", primes);
     } else {
         wait();
         printf(1, "Parent with pid %d created child with pid %d\n", getpid(), pid);

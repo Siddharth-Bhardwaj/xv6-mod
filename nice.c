@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        printf(1, "invalid usage. proper usage: nice <pid> <nice value>\n");
+        printf(1, "invalid usage. proper usage: nice <pid> <nice value to increment/decrement>\n");
         exit();
     }
     char *nicearg = argv[2];

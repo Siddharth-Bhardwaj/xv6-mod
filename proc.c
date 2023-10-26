@@ -254,6 +254,7 @@ wait(void)
         p->name[0] = 0;
         p->killed = 0;
         p->state = UNUSED;
+        p->nice = 0;
         release(&ptable.lock);
         return pid;
       }
@@ -270,6 +271,24 @@ wait(void)
   }
 }
 
+int getNumberOfTickets(int nice) {
+  return (20 - nice) * 10;
+}
+
+// find total number of tickets assigned to runnable processes
+int getTotalTickets(void) {
+  struct proc *p;
+  int total = 0;
+  for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+    if(p->state != RUNNABLE) {
+      continue;
+    }
+    int nice = p->nice;
+    total += getNumberOfTickets(nice);
+  }
+  return total;
+}
+
 //PAGEBREAK: 42
 // Per-CPU process scheduler.
 // Each CPU calls scheduler() after setting itself up.
@@ -282,33 +301,68 @@ void
 scheduler(void)
 {
   struct proc *p;
+  #ifndef LOTTERY
+    // default xv6 scheduling
+    for(;;){
+      // Enable interrupts on this processor.
+      sti();
 
-  for(;;){
-    // Enable interrupts on this processor.
-    sti();
+      // Loop over process table looking for process to run.
+      acquire(&ptable.lock);
+      for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE)
+          continue;
 
-    // Loop over process table looking for process to run.
-    acquire(&ptable.lock);
-    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-      if(p->state != RUNNABLE)
-        continue;
+        // Switch to chosen process.  It is the process's job
+        // to release ptable.lock and then reacquire it
+        // before jumping back to us.
+        proc = p;
+        switchuvm(p);
+        p->state = RUNNING;
+        swtch(&cpu->scheduler, p->context);
+        switchkvm();
 
-      // Switch to chosen process.  It is the process's job
-      // to release ptable.lock and then reacquire it
-      // before jumping back to us.
-      proc = p;
-      switchuvm(p);
-      p->state = RUNNING;
-      swtch(&cpu->scheduler, p->context);
-      switchkvm();
+        // Process is done running for now.
+        // It should have changed its p->state before coming back.
+        proc = 0;
+      }
+      release(&ptable.lock);
 
-      // Process is done running for now.
-      // It should have changed its p->state before coming back.
-      proc = 0;
     }
-    release(&ptable.lock);
+  
+  #else
+    // Custom lottery scheduling
+    for (;;) {
+      sti();
+      acquire(&ptable.lock);
+      int ticketCount = 0, totalTickets = getTotalTickets();
+      if (totalTickets == 0) {
+        release(&ptable.lock);
+        continue;
+      }
+      int chosenTicket = random(totalTickets);
+      for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if(p->state != RUNNABLE) {
+          continue;
+        }
+        int ticketsHeld = getNumberOfTickets(p->nice);
+        ticketCount += ticketsHeld;
+        if (ticketCount < chosenTicket) {
+          continue;
+        }
+        proc = p;
+        switchuvm(p);
+        p->state = RUNNING;
+        swtch(&cpu->scheduler, p->context);
+        switchkvm();
 
-  }
+        proc = 0;
+        break;
+      }
+      release(&ptable.lock);
+    }
+
+  #endif
 }
 
 // Enter scheduler.  Must hold only ptable.lock
@@ -488,17 +542,17 @@ procdump(void)
 
 int setnice(int pid, int nice) {
   struct proc *p;
-  if (nice > 19) {
-    nice = 19;
-  }
-  if (nice < -20) {
-    nice = -20;
-  }
   acquire(&ptable.lock);
   for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
     if (p->pid == pid) {
-      p->nice = nice;
-      cprintf("pid: %d nice: %d\n", pid, nice);
+      p->nice = p->nice + nice;
+      if (p->nice > 19) {
+        p->nice = 19;
+      }
+      if (p->nice < -20) {
+        p->nice = -20;
+      }
+      cprintf("pid: %d nice: %d\n", pid, p->nice);
       release(&ptable.lock);
       return pid;
     }
@@ -555,5 +609,5 @@ int random(int max)
   a = ((a4 << 3) ^ a4) >> 12;
   a4 = ((a4 & 4294967168U) << 13) ^ a;
 
-  return ((a1 ^ a2 ^ a3 ^ a4) / 2);
+  return (a1 ^ a2 ^ a3 ^ a4) % (max + 1);
 }
