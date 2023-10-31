@@ -7,7 +7,7 @@
 int main(int argc, char *argv[])
 {
     int i;
-    // creating 49 processes with different nice values
+    // creating 40 processes with different nice values
     for (i = -20; i < 20; i++)
     {
         int pid = fork();

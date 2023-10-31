@@ -11,6 +11,7 @@ PART 1: NICE
         this will display all existing processes and a few of their attributes in the process table.
 
     test utility (nicetest):
+        advisory: child will NOT inherit the nice value of the parent and will be initialized with nice = 0.
         usage: nicetest
         this will create a dummy process and its child, i.e., 2 dummy processes will be created.
         the child will find the number of prime numbers under 99999 to consume CPU time.
@@ -37,6 +38,7 @@ PART 3: SCHEDULER
     advisory: Make sure to use the -w flag for grep when finding for nice = -1, -2 or 1. 
               Otherwise the result will be incorrect since -1 will include values for -10, -11, -12, -13 and so on, 
               -2 will include values for -20, and 1 will include values for 10, 11, 12,13 and so on.
+              Keep in mind that child will NOT inherit the nice value of the parent and will be initialized with nice = 0.
     lottery scheduling:
         usage: to enable lottery scheduling, pass -DLOTTERY during compilation of proc.c
                this can be done by making sure line 81 in makefile is uncommented (CFLAGS += -DLOTTERY).
